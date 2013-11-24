@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E956F4C91841298C00951F9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E956F4C81841298C00951F9F /* Cocoa.framework */; };
+		E956F4D31841298C00951F9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E956F4D11841298C00951F9F /* InfoPlist.strings */; };
+		E956F4D51841298C00951F9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E956F4D41841298C00951F9F /* main.m */; };
+		E956F4D91841298C00951F9F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E956F4D71841298C00951F9F /* Credits.rtf */; };
+		E956F4DC1841298C00951F9F /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E956F4DB1841298C00951F9F /* CHAppDelegate.m */; };
+		E956F4DF1841298C00951F9F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E956F4DD1841298C00951F9F /* MainMenu.xib */; };
+		E956F4E11841298C00951F9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E956F4E01841298C00951F9F /* Images.xcassets */; };
+		E956F4E81841298C00951F9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E956F4E71841298C00951F9F /* XCTest.framework */; };
+		E956F4E91841298C00951F9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E956F4C81841298C00951F9F /* Cocoa.framework */; };
+		E956F4F11841298C00951F9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E956F4EF1841298C00951F9F /* InfoPlist.strings */; };
+		E956F4F31841298C00951F9F /* Call Me Maybe Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E956F4F21841298C00951F9F /* Call Me Maybe Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E956F4EA1841298C00951F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E956F4BD1841298C00951F9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E956F4C41841298C00951F9F;
+			remoteInfo = "Call Me Maybe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E956F4C51841298C00951F9F /* Call Me Maybe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Call Me Maybe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E956F4C81841298C00951F9F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E956F4CB1841298C00951F9F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E956F4CC1841298C00951F9F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E956F4CD1841298C00951F9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E956F4D01841298C00951F9F /* Call Me Maybe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Call Me Maybe-Info.plist"; sourceTree = "<group>"; };
+		E956F4D21841298C00951F9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E956F4D41841298C00951F9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E956F4D61841298C00951F9F /* Call Me Maybe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Call Me Maybe-Prefix.pch"; sourceTree = "<group>"; };
+		E956F4D81841298C00951F9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E956F4DA1841298C00951F9F /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CHAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E956F4DB1841298C00951F9F /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		E956F4DE1841298C00951F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E956F4E01841298C00951F9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E956F4E61841298C00951F9F /* Call Me Maybe Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Call Me Maybe Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E956F4E71841298C00951F9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E956F4EE1841298C00951F9F /* Call Me Maybe Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Call Me Maybe Tests-Info.plist"; sourceTree = "<group>"; };
+		E956F4F01841298C00951F9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E956F4F21841298C00951F9F /* Call Me Maybe Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Call Me Maybe Tests.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E956F4C21841298C00951F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E956F4C91841298C00951F9F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E956F4E31841298C00951F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E956F4E91841298C00951F9F /* Cocoa.framework in Frameworks */,
+				E956F4E81841298C00951F9F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E956F4BC1841298C00951F9F = {
+			isa = PBXGroup;
+			children = (
+				E956F4CE1841298C00951F9F /* Call Me Maybe */,
+				E956F4EC1841298C00951F9F /* Call Me Maybe Tests */,
+				E956F4C71841298C00951F9F /* Frameworks */,
+				E956F4C61841298C00951F9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E956F4C61841298C00951F9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E956F4C51841298C00951F9F /* Call Me Maybe.app */,
+				E956F4E61841298C00951F9F /* Call Me Maybe Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E956F4C71841298C00951F9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E956F4C81841298C00951F9F /* Cocoa.framework */,
+				E956F4E71841298C00951F9F /* XCTest.framework */,
+				E956F4CA1841298C00951F9F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E956F4CA1841298C00951F9F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E956F4CB1841298C00951F9F /* AppKit.framework */,
+				E956F4CC1841298C00951F9F /* CoreData.framework */,
+				E956F4CD1841298C00951F9F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E956F4CE1841298C00951F9F /* Call Me Maybe */ = {
+			isa = PBXGroup;
+			children = (
+				E956F4DA1841298C00951F9F /* CHAppDelegate.h */,
+				E956F4DB1841298C00951F9F /* CHAppDelegate.m */,
+				E956F4DD1841298C00951F9F /* MainMenu.xib */,
+				E956F4E01841298C00951F9F /* Images.xcassets */,
+				E956F4CF1841298C00951F9F /* Supporting Files */,
+			);
+			path = "Call Me Maybe";
+			sourceTree = "<group>";
+		};
+		E956F4CF1841298C00951F9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E956F4D01841298C00951F9F /* Call Me Maybe-Info.plist */,
+				E956F4D11841298C00951F9F /* InfoPlist.strings */,
+				E956F4D41841298C00951F9F /* main.m */,
+				E956F4D61841298C00951F9F /* Call Me Maybe-Prefix.pch */,
+				E956F4D71841298C00951F9F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E956F4EC1841298C00951F9F /* Call Me Maybe Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E956F4F21841298C00951F9F /* Call Me Maybe Tests.m */,
+				E956F4ED1841298C00951F9F /* Supporting Files */,
+			);
+			path = "Call Me Maybe Tests";
+			sourceTree = "<group>";
+		};
+		E956F4ED1841298C00951F9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E956F4EE1841298C00951F9F /* Call Me Maybe Tests-Info.plist */,
+				E956F4EF1841298C00951F9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E956F4C41841298C00951F9F /* Call Me Maybe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E956F4F61841298C00951F9F /* Build configuration list for PBXNativeTarget "Call Me Maybe" */;
+			buildPhases = (
+				E956F4C11841298C00951F9F /* Sources */,
+				E956F4C21841298C00951F9F /* Frameworks */,
+				E956F4C31841298C00951F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Call Me Maybe";
+			productName = "Call Me Maybe";
+			productReference = E956F4C51841298C00951F9F /* Call Me Maybe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E956F4E51841298C00951F9F /* Call Me Maybe Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E956F4F91841298C00951F9F /* Build configuration list for PBXNativeTarget "Call Me Maybe Tests" */;
+			buildPhases = (
+				E956F4E21841298C00951F9F /* Sources */,
+				E956F4E31841298C00951F9F /* Frameworks */,
+				E956F4E41841298C00951F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E956F4EB1841298C00951F9F /* PBXTargetDependency */,
+			);
+			name = "Call Me Maybe Tests";
+			productName = "Call Me Maybe Tests";
+			productReference = E956F4E61841298C00951F9F /* Call Me Maybe Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E956F4BD1841298C00951F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Coordinated Hackers";
+				TargetAttributes = {
+					E956F4E51841298C00951F9F = {
+						TestTargetID = E956F4C41841298C00951F9F;
+					};
+				};
+			};
+			buildConfigurationList = E956F4C01841298C00951F9F /* Build configuration list for PBXProject "Call Me Maybe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E956F4BC1841298C00951F9F;
+			productRefGroup = E956F4C61841298C00951F9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E956F4C41841298C00951F9F /* Call Me Maybe */,
+				E956F4E51841298C00951F9F /* Call Me Maybe Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E956F4C31841298C00951F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E956F4D31841298C00951F9F /* InfoPlist.strings in Resources */,
+				E956F4E11841298C00951F9F /* Images.xcassets in Resources */,
+				E956F4D91841298C00951F9F /* Credits.rtf in Resources */,
+				E956F4DF1841298C00951F9F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E956F4E41841298C00951F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E956F4F11841298C00951F9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E956F4C11841298C00951F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E956F4D51841298C00951F9F /* main.m in Sources */,
+				E956F4DC1841298C00951F9F /* CHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E956F4E21841298C00951F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E956F4F31841298C00951F9F /* Call Me Maybe Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E956F4EB1841298C00951F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E956F4C41841298C00951F9F /* Call Me Maybe */;
+			targetProxy = E956F4EA1841298C00951F9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E956F4D11841298C00951F9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E956F4D21841298C00951F9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E956F4D71841298C00951F9F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E956F4D81841298C00951F9F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E956F4DD1841298C00951F9F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E956F4DE1841298C00951F9F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E956F4EF1841298C00951F9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E956F4F01841298C00951F9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E956F4F41841298C00951F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E956F4F51841298C00951F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E956F4F71841298C00951F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Call Me Maybe/Call Me Maybe-Prefix.pch";
+				INFOPLIST_FILE = "Call Me Maybe/Call Me Maybe-Info.plist";
+				PRODUCT_NAME = "Call Me Maybe";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E956F4F81841298C00951F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Call Me Maybe/Call Me Maybe-Prefix.pch";
+				INFOPLIST_FILE = "Call Me Maybe/Call Me Maybe-Info.plist";
+				PRODUCT_NAME = "Call Me Maybe";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E956F4FA1841298C00951F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Call Me Maybe.app/Contents/MacOS/Call Me Maybe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Call Me Maybe/Call Me Maybe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Call Me Maybe Tests/Call Me Maybe Tests-Info.plist";
+				PRODUCT_NAME = "Call Me Maybe Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E956F4FB1841298C00951F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Call Me Maybe.app/Contents/MacOS/Call Me Maybe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Call Me Maybe/Call Me Maybe-Prefix.pch";
+				INFOPLIST_FILE = "Call Me Maybe Tests/Call Me Maybe Tests-Info.plist";
+				PRODUCT_NAME = "Call Me Maybe Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E956F4C01841298C00951F9F /* Build configuration list for PBXProject "Call Me Maybe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E956F4F41841298C00951F9F /* Debug */,
+				E956F4F51841298C00951F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E956F4F61841298C00951F9F /* Build configuration list for PBXNativeTarget "Call Me Maybe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E956F4F71841298C00951F9F /* Debug */,
+				E956F4F81841298C00951F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E956F4F91841298C00951F9F /* Build configuration list for PBXNativeTarget "Call Me Maybe Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E956F4FA1841298C00951F9F /* Debug */,
+				E956F4FB1841298C00951F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E956F4BD1841298C00951F9F /* Project object */;
+}
